@@ -1,0 +1,17 @@
+# Server Configuration
+server.port=7070
+
+# H2 Database Configuration
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.driverClassName=org.h2.Driver
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.jpa.hibernate.ddl-auto=update
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+
+# JPA Configuration
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+# Application Name
+spring.application.name=student-management-system
